@@ -21,6 +21,7 @@ public class MulChooseAdapter extends BaseAdapter {
     protected       LayoutInflater           mInflater;
     private         List<String>             mDatas;
     // 用来控制CheckBox的选中状况
+
     private  static HashMap<Integer,Boolean> isSelected;
 
     public MulChooseAdapter(Context context, List<String> mDatas) {
